@@ -287,7 +287,7 @@ package away3d.controllers
 		/**
 		 * Creates a new <code>HoverController</code> object.
 		 */
-		public function HoverController(targetObject:Entity = null, lookAtObject:ObjectContainer3D = null, panAngle:Number = 0, tiltAngle:Number = 90, distance:Number = 1000, minTiltAngle:Number = -90, maxTiltAngle:Number = 90, minPanAngle:Number = NaN, maxPanAngle:Number = NaN, minDistance:Number = 0, maxDistance:Number = Infinity, steps:uint = 8, yFactor:Number = 2, wrapPanAngle:Boolean = false)
+		public function HoverController(targetObject:Entity = null, lookAtObject:ObjectContainer3D = null, panAngle:Number = 0, tiltAngle:Number = 90, distance:Number = 1000, minTiltAngle:Number = -90, maxTiltAngle:Number = 90, minPanAngle:Number = NaN, maxPanAngle:Number = NaN, minDistance:Number = 0, maxDistance:Number = Infinity, steps:uint = 9, yFactor:Number = 2, wrapPanAngle:Boolean = false)
 		{
 			super(targetObject, lookAtObject);
 			
