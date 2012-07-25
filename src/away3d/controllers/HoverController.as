@@ -79,7 +79,7 @@ package away3d.controllers
 			if (_panAngle == val)
 				return;
 			
-			_panAngle = val;
+			_panAngle = val; 
 			
 			notifyUpdate();
 		}
