@@ -52,7 +52,7 @@ package away3d.controllers
 		
 		public function set steps(val:uint):void
 		{
-			val = (val<1)? 1 : val;
+			if (val==0) val=1;
 			
 			if (_steps == val)
 				return;
